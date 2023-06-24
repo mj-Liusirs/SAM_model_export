@@ -9,9 +9,8 @@ main.cpp中是c++运行trt示例
 运行python脚本export_onnx_only.py
 与export_onnx_trt中使用的模型输入尺寸不同
 
-
-- 注意：安装torch==2.0.0+cu117方法：
-- [下载torch-2.0.0+cu117-cp38-cp38-win_amd64.whl](https://download.pytorch.org/whl/torch_stable.html)（cp38表示python版本3.8，amd64表示64位）
+- 下载SAM模型 `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)放在downloaded文件夹内
+- 安装torch==2.0.0+cu117：[下载torch-2.0.0+cu117-cp38-cp38-win_amd64.whl](https://download.pytorch.org/whl/torch_stable.html)（cp38表示python版本3.8，amd64表示64位）
 - 执行 **pip install torch-2.0.0+cu117-cp38-cp38-win_amd64.whl**
 
 python依赖库在以下版本测试通过
